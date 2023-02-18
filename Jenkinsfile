@@ -14,12 +14,12 @@ pipeline {
       }
     }
    
-    /*stage('Deploy') {
+    stage('Deploy') {
       steps {
          sh '/departent/services'
       }
     
-  }*/
+  }
  
   post {
     failure {
