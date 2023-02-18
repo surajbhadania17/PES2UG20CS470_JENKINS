@@ -13,12 +13,12 @@ pipeline {
         sh './name'
       }
     }
-   /*
+   
     stage('Deploy') {
       steps {
          sh '/departent/services'
       }
-    }*/
+    }
   }
  
   post {
