@@ -18,7 +18,7 @@ pipeline {
       steps {
          sh '/departent/services'
       }
-    
+    }
   }
  
   post {
