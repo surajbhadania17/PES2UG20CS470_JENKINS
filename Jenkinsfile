@@ -16,9 +16,9 @@ pipeline {
    
     stage('Deploy') {
       steps {
-         sh './departent/services'
+         //sh '/departent/services'
       }
-    }
+    
   }
  
   post {
